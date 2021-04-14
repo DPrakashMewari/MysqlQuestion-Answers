@@ -1,5 +1,5 @@
 # Question 1 :
-# Finding Highest salary through our emp Datasets;
+# Finding Highest salary in our emp Datasets;
 # 3 Function to find
 # MAX 
 # LIMIT 
@@ -48,7 +48,4 @@ select sal from (select sal from emp order by sal desc limit 2) as emp order by 
 # Secondary / Alternate keys:
 # Keys not selected as pk are secondary keys..
 
-
-
-
-
+--------------------------------------------------------------------------
