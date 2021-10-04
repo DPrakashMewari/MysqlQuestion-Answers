@@ -1,0 +1,35 @@
+# Difference Bw Cluster and Non Cluster Index 
+# Cluster Index 
+# Non Cluster Index 
+
+# Cluster Index determines the physical order of data in a table.table can have only one cluster index 
+
+create clustered index userdefined_name on tablename (salary asc,gender asc)
+
+
+# Non-Clustered Index:
+Non clustered index are stored separately a table can have more than one non clustered index
+
+create nonclustered index clustername on tablename (salary)
+
+
+# Diff Bw Clustered & Non clustered
+
+
+* Only one clustered index on table 
+~ You can have more then one non clustered
+* Cluster index is faster 
+~ Non cluster is slower because it has to refer back to table 
+* Does not require additonal disk space 
+~ It requires disk space to stored separately 
+
+
+
+
+
+
+
+
+
+
+
